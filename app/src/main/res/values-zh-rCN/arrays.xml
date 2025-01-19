@@ -10,16 +10,16 @@
     </string-array>
 
     <string-array name="font_weight_entries">
-        <item>Thin (100)</item>
-        <item>Extra Light (200)</item>
-        <item>Light (300)</item>
-        <item>Normal (400)</item>
-        <item>Medium (500)</item>
-        <item>Semi Bold (600)</item>
-        <item>Bold (700)</item>
-        <item>Extra Bold (800)</item>
-        <item>Black (900)</item>
-        <item>Extra Black (950)</item>
+        <item>极细 (100)</item>
+        <item>超细 (200)</item>
+        <item>细体 (300)</item>
+        <item>常规 (400)</item>
+        <item>中等 (500)</item>
+        <item>中粗 (600)</item>
+        <item>粗体 (700)</item>
+        <item>超粗 (800)</item>
+        <item>黑体 (900)</item>
+        <item>特黑 (950)</item>
     </string-array>
 
     <string-array name="refresh_interval_entries">
