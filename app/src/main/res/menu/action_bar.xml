@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/floating_status_bar_toggle"
+        android:icon="@drawable/baseline_play_arrow"
+        android:title="@string/action_bar_floating_status_bar_toggle_start"
+        app:iconTint="?colorOnPrimary"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/reset_settings"
+        android:icon="@drawable/baseline_refresh"
+        android:title="@string/action_bar_reset_settings" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/baseline_info"
+        android:title="@string/action_bar_about" />
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/baseline_exit_to_app"
+        android:title="@string/action_bar_exit" />
+</menu>

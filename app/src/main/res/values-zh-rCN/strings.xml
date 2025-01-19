@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">悬浮状态栏</string>
+    <string name="preferences_category_floating_window">悬浮窗口</string>
+    <string name="preferences_floating_window_position">位置</string>
+    <string name="preferences_floating_window_margin">边距</string>
+    <string name="preferences_category_font">字体</string>
+    <string name="preferences_font_size">字体大小</string>
+    <string name="preferences_font_weight">字体粗细</string>
+    <string name="preferences_font_family">字体</string>
+    <string name="preferences_font_color">字体颜色</string>
+    <string name="preferences_category_floating_status_bar">悬浮状态栏</string>
+    <string name="preferences_floating_status_bar_refresh_interval">刷新周期</string>
+    <string name="preferences_floating_status_bar_refresh_interval_summary">状态栏刷新周期（秒）</string>
+    <string name="preferences_floating_status_bar_show_seconds">显示秒数</string>
+    <string name="preferences_floating_status_bar_show_battery">显示电量</string>
+    <string name="preferences_floating_status_bar_show_battery_percentage_sign">显示电量百分比符号</string>
+    <string name="action_bar_floating_status_bar_toggle_start">启动</string>
+    <string name="action_bar_floating_status_bar_toggle_stop">停止</string>
+    <string name="action_bar_about">关于</string>
+    <string name="action_bar_exit">退出</string>
+    <string name="preferences_floating_window_background_color">背景颜色</string>
+    <string name="action_bar_reset_settings">重置设置</string>
+    <string name="preferences_floating_window_open_settings_on_press">点击打开设置</string>
+    <string name="preferences_floating_window_close_on_long_press">长按时关闭悬浮窗</string>
+    <string name="about_dialog_html"><![CDATA[开发者：LGiki<br />源代码：<a href="https://github.com/LGiki/FloaingStatusBar">https://github.com/LGiki/FloaingStatusBar</a>]]></string>
+    <string name="about_dialog_title">关于</string>
+    <string name="toast_open_settings_failed">打开设置失败</string>
+    <string name="reset_settings_dialog_content">所有设置项都会还原到默认设置，是否继续？</string>
+    <string name="reset_settings_dialog_title">重置设置</string>
+    <string name="toast_get_preference_values_failed">获取应用设置失败</string>
+    <string name="toast_permission_not_granted">请授予显示在其他应用上层的权限</string>
+</resources>

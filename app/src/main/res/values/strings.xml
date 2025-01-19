@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FloatingStatusBar</string>
+    <string name="preferences_category_floating_window">Floating Window</string>
+    <string name="preferences_floating_window_position">Position</string>
+    <string name="preferences_floating_window_margin">Margin</string>
+    <string name="preferences_category_font">Font</string>
+    <string name="preferences_font_size">Font Size</string>
+    <string name="preferences_font_weight">Font Weight</string>
+    <string name="preferences_font_family">Font Family</string>
+    <string name="preferences_font_color">Font Color</string>
+    <string name="preferences_category_floating_status_bar">Floating Status Bar</string>
+    <string name="preferences_floating_status_bar_refresh_interval">Refresh Interval</string>
+    <string name="preferences_floating_status_bar_refresh_interval_summary">Refresh interval in seconds</string>
+    <string name="preferences_floating_status_bar_show_seconds">Show Seconds</string>
+    <string name="preferences_floating_status_bar_show_battery">Show Battery</string>
+    <string name="preferences_floating_status_bar_show_battery_percentage_sign">Show Battery Percentage Sign</string>
+    <string name="action_bar_floating_status_bar_toggle_start">Start</string>
+    <string name="action_bar_floating_status_bar_toggle_stop">Stop</string>
+    <string name="action_bar_about">About</string>
+    <string name="action_bar_exit">Exit</string>
+    <string name="preferences_floating_window_background_color">Background Color</string>
+    <string name="action_bar_reset_settings">Reset Settings</string>
+    <string name="preferences_floating_window_open_settings_on_press">Open settings on press floating window</string>
+    <string name="preferences_floating_window_close_on_long_press">Close floating window on long press</string>
+    <string name="about_dialog_html"><![CDATA[Developed by LGiki<br />Source Code: <a href="https://github.com/LGiki/FloaingStatusBar">https://github.com/LGiki/FloaingStatusBar</a>]]></string>
+    <string name="about_dialog_title">About</string>
+    <string name="toast_open_settings_failed">Failed to open settings</string>
+    <string name="reset_settings_dialog_content">Click OK to reset. All settings will be lost and replaced with default settings!</string>
+    <string name="reset_settings_dialog_title">Reset Settings</string>
+    <string name="toast_get_preference_values_failed">Failed to get preference values</string>
+    <string name="toast_permission_not_granted">Please grant it permission to display over other apps</string>
+</resources>

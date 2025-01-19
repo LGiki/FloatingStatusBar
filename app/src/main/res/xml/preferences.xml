@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/preferences_category_floating_window" />
+
+    <ListPreference
+        android:defaultValue="@string/default_value_window_position"
+        android:entries="@array/window_position_entries"
+        android:entryValues="@array/window_position_entry_values"
+        android:key="@string/key_window_position"
+        android:summary="%s"
+        android:title="@string/preferences_floating_window_position" />
+
+    <SeekBarPreference
+        android:defaultValue="@integer/default_value_window_margin"
+        android:key="@string/key_window_margin"
+        android:max="50"
+        android:title="@string/preferences_floating_window_margin"
+        app:min="0"
+        app:showSeekBarValue="true" />
+
+    <com.skydoves.colorpickerpreference.ColorPickerPreference
+        android:defaultValue="@integer/default_value_window_background_color"
+        android:key="@string/key_window_background_color"
+        android:title="@string/preferences_floating_window_background_color"
+        app:preference_attachAlphaSlideBar="true"
+        app:preference_attachBrightnessSlideBar="true"
+        app:preference_colorBox_radius="26dp"
+        app:preference_dialog_negative="@android:string/cancel"
+        app:preference_dialog_positive="@android:string/ok" />
+
+    <SwitchPreference
+        android:defaultValue="@bool/default_value_window_open_settings_on_press"
+        android:key="@string/key_window_open_settings_on_press"
+        android:title="@string/preferences_floating_window_open_settings_on_press" />
+
+    <SwitchPreference
+        android:defaultValue="@bool/default_value_window_close_window_on_long_press"
+        android:key="@string/key_window_close_window_on_long_press"
+        android:title="@string/preferences_floating_window_close_on_long_press" />
+
+    <PreferenceCategory android:title="@string/preferences_category_floating_status_bar" />
+
+    <ListPreference
+        android:defaultValue="@string/default_value_floating_status_bar_refresh_interval"
+        android:entries="@array/refresh_interval_entries"
+        android:entryValues="@array/refresh_interval_entry_values"
+        android:key="@string/key_floating_status_bar_refresh_interval"
+        android:summary="@string/preferences_floating_status_bar_refresh_interval_summary"
+        android:title="@string/preferences_floating_status_bar_refresh_interval" />
+
+    <SwitchPreference
+        android:defaultValue="@bool/default_value_floating_status_bar_show_seconds"
+        android:key="@string/key_floating_status_bar_show_seconds"
+        android:title="@string/preferences_floating_status_bar_show_seconds" />
+
+    <SwitchPreference
+        android:defaultValue="@bool/default_value_floating_status_bar_show_battery"
+        android:key="@string/key_floating_status_bar_show_battery"
+        android:title="@string/preferences_floating_status_bar_show_battery" />
+
+    <SwitchPreference
+        android:defaultValue="@bool/default_value_floating_status_bar_show_battery_percentage_sign"
+        android:dependency="@string/key_floating_status_bar_show_battery"
+        android:key="@string/key_floating_status_bar_show_battery_percentage_sign"
+        android:title="@string/preferences_floating_status_bar_show_battery_percentage_sign" />
+
+    <PreferenceCategory android:title="@string/preferences_category_font" />
+
+    <SeekBarPreference
+        android:defaultValue="@integer/default_value_font_size"
+        android:key="@string/key_font_size"
+        android:max="32"
+        android:title="@string/preferences_font_size"
+        app:min="12"
+        app:showSeekBarValue="true" />
+
+    <net.lgiki.floatingstatusbar.preferences.FontWeightListPreference
+        android:defaultValue="@string/default_value_font_weight"
+        android:entries="@array/font_weight_entries"
+        android:entryValues="@array/font_weight_entry_values"
+        android:key="@string/key_font_weight"
+        android:summary="%s"
+        android:title="@string/preferences_font_weight" />
+
+    <net.lgiki.floatingstatusbar.preferences.FontFamilyListPreference
+        android:defaultValue="@string/default_value_font_family"
+        android:entries="@array/font_family_entries"
+        android:entryValues="@array/font_family_entry_values"
+        android:key="@string/key_font_family"
+        android:summary="%s"
+        android:title="@string/preferences_font_family" />
+
+    <com.skydoves.colorpickerpreference.ColorPickerPreference
+        android:defaultValue="@integer/default_value_font_color"
+        android:key="@string/key_font_color"
+        android:title="@string/preferences_font_color"
+        app:preference_attachAlphaSlideBar="true"
+        app:preference_attachBrightnessSlideBar="true"
+        app:preference_colorBox_radius="26dp"
+        app:preference_dialog_negative="@android:string/cancel"
+        app:preference_dialog_positive="@android:string/ok" />
+
+</androidx.preference.PreferenceScreen>

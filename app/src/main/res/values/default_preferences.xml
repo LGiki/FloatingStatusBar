@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_value_floating_status_bar_refresh_interval" translatable="false">1000</string>
+    <bool name="default_value_floating_status_bar_show_seconds">false</bool>
+    <bool name="default_value_floating_status_bar_show_battery">false</bool>
+    <bool name="default_value_floating_status_bar_show_battery_percentage_sign">false</bool>
+    <string name="default_value_window_position" translatable="false">bottom_left</string>
+    <integer name="default_value_window_margin">0</integer>
+    <integer name="default_value_window_background_color">0x00ffffff</integer>
+    <bool name="default_value_window_open_settings_on_press">true</bool>
+    <bool name="default_value_window_close_window_on_long_press">true</bool>
+    <integer name="default_value_font_size">16</integer>
+    <string name="default_value_font_weight" translatable="false">400</string>
+    <string name="default_value_font_family" translatable="false">sans_serif</string>
+    <integer name="default_value_font_color">0xff000000</integer>
+</resources>

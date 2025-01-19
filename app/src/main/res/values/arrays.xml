@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="window_position_entries">
+        <item>Top Left</item>
+        <item>Top Center</item>
+        <item>Top Right</item>
+        <item>Bottom Left</item>
+        <item>Bottom Center</item>
+        <item>Bottom Right</item>
+    </string-array>
+
+    <string-array name="window_position_entry_values">
+        <item>top_left</item>
+        <item>top_center</item>
+        <item>top_right</item>
+        <item>bottom_left</item>
+        <item>bottom_center</item>
+        <item>bottom_right</item>
+    </string-array>
+
+    <string-array name="font_weight_entries">
+        <item>Thin (100)</item>
+        <item>Extra Light (200)</item>
+        <item>Light (300)</item>
+        <item>Normal (400)</item>
+        <item>Medium (500)</item>
+        <item>Semi Bold (600)</item>
+        <item>Bold (700)</item>
+        <item>Extra Bold (800)</item>
+        <item>Black (900)</item>
+        <item>Extra Black (950)</item>
+    </string-array>
+
+    <string-array name="font_weight_entry_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>950</item>
+    </string-array>
+
+    <string-array name="refresh_interval_entries">
+        <item>1 second</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minute</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string-array name="refresh_interval_entry_values">
+        <item>1000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+
+    <string-array name="font_family_entries">
+        <item>Cursive</item>
+        <item>Monospace</item>
+        <item>Sans Serif</item>
+        <item>Serif</item>
+    </string-array>
+
+    <string-array name="font_family_entry_values">
+        <item>cursive</item>
+        <item>monospace</item>
+        <item>sans_serif</item>
+        <item>serif</item>
+    </string-array>
+</resources>

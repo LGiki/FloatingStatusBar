@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_window_position" translatable="false">window_position</string>
+    <string name="key_window_margin" translatable="false">window_margin</string>
+    <string name="key_window_background_color" translatable="false">window_background_color</string>
+    <string name="key_window_open_settings_on_press" translatable="false">window_open_settings_on_press</string>
+    <string name="key_window_close_window_on_long_press" translatable="false">window_close_window_on_long_press</string>
+    <string name="key_floating_status_bar_refresh_interval" translatable="false">floating_status_bar_refresh_interval</string>
+    <string name="key_floating_status_bar_show_seconds" translatable="false">floating_status_bar_show_seconds</string>
+    <string name="key_floating_status_bar_show_battery" translatable="false">floating_status_bar_show_battery</string>
+    <string name="key_floating_status_bar_show_battery_percentage_sign" translatable="false">floating_status_bar_show_battery_percentage_sign</string>
+    <string name="key_font_size" translatable="false">font_size</string>
+    <string name="key_font_weight" translatable="false">font_weight</string>
+    <string name="key_font_family" translatable="false">font_family</string>
+    <string name="key_font_color" translatable="false">font_color</string>
+</resources>
