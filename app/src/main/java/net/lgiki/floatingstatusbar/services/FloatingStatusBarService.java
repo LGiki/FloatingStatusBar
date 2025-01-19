@@ -72,7 +72,7 @@ public class FloatingStatusBarService extends Service {
     }
 
     private void sendStatusBroadcast(boolean isRunning) {
-        Intent intent = new Intent(Constants.FloatingStatusBarStatus);
+        Intent intent = new Intent(Constants.FloatingStatusBarStatusChanged);
         intent.putExtra("isRunning", isRunning);
         sendBroadcast(intent);
     }

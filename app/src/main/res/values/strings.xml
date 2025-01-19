@@ -29,4 +29,7 @@
     <string name="reset_settings_dialog_title">Reset Settings</string>
     <string name="toast_get_preference_values_failed">Failed to get preference values</string>
     <string name="toast_permission_not_granted">Please grant it permission to display over other apps</string>
+    <string name="tile_toggle_label">Floating Status Bar</string>
+    <string name="tile_toggle_running">Running</string>
+    <string name="tile_toggle_stopped">Stopped</string>
 </resources>

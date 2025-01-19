@@ -21,6 +21,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -159,9 +160,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onReceive(Context context, Intent intent) {
                 updateServiceToggleMenuIcon();
+                Log.d("TAG", "onReceive: "+"Run here");
             }
         };
-        ContextCompat.registerReceiver(this, floatingStatusBarStatusReceiver, new IntentFilter(Constants.FloatingStatusBarStatus), ContextCompat.RECEIVER_NOT_EXPORTED);
+        ContextCompat.registerReceiver(this, floatingStatusBarStatusReceiver, new IntentFilter(Constants.FloatingStatusBarStatusChanged), ContextCompat.RECEIVER_EXPORTED);
     }
 
     @Override

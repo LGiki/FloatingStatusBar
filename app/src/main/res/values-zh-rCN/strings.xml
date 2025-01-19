@@ -30,4 +30,7 @@
     <string name="reset_settings_dialog_title">重置设置</string>
     <string name="toast_get_preference_values_failed">获取应用设置失败</string>
     <string name="toast_permission_not_granted">请授予显示在其他应用上层的权限</string>
+    <string name="tile_toggle_label">悬浮状态栏</string>
+    <string name="tile_toggle_running">已开启</string>
+    <string name="tile_toggle_stopped">已停止</string>
 </resources>
