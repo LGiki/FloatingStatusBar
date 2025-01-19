@@ -2,6 +2,8 @@
 
 <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" width="100" height="100" align="right" />
 
+English | [简体中文](README_zh-rCN.md)
+
 Floating Status Bar is an Android app that provides a floating status bar overlay, displaying the current time and battery level. It is designed to offer high customizability and quick access, addressing the issue of some reading apps not displaying the time when reading books.
 
 ## Features
