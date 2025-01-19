@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="window_position_entries">
+        <item>左上</item>
+        <item>頂部置中</item>
+        <item>右上</item>
+        <item>左下</item>
+        <item>底部置中</item>
+        <item>右下</item>
+    </string-array>
+
+    <string-array name="font_weight_entries">
+        <item>極細 (100)</item>
+        <item>超細 (200)</item>
+        <item>細體 (300)</item>
+        <item>常規 (400)</item>
+        <item>中等 (500)</item>
+        <item>中粗 (600)</item>
+        <item>粗體 (700)</item>
+        <item>超粗 (800)</item>
+        <item>黑體 (900)</item>
+        <item>特黑 (950)</item>
+    </string-array>
+
+    <string-array name="refresh_interval_entries">
+        <item>1 秒</item>
+        <item>10 秒</item>
+        <item>30 秒</item>
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>15 分鐘</item>
+        <item>30 分鐘</item>
+        <item>1 小時</item>
+    </string-array>
+
+    <string-array name="font_family_entries">
+        <item>草書字體 (Cursive)</item>
+        <item>等寬字體 (Monospace)</item>
+        <item>無襯線字體 (Sans Serif)</item>
+        <item>襯線字體 (Serif)</item>
+    </string-array>
+</resources>
