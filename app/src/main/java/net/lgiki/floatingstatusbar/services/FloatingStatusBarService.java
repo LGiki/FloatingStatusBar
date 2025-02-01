@@ -25,7 +25,7 @@ import androidx.core.graphics.TypefaceCompat;
 import androidx.preference.PreferenceManager;
 
 import net.lgiki.floatingstatusbar.Constants;
-import net.lgiki.floatingstatusbar.MainActivity;
+import net.lgiki.floatingstatusbar.activities.MainActivity;
 import net.lgiki.floatingstatusbar.R;
 import net.lgiki.floatingstatusbar.databinding.FloatingStatusBarBinding;
 import net.lgiki.floatingstatusbar.utils.TimeUtils;

@@ -1,6 +1,7 @@
 package net.lgiki.floatingstatusbar.services;
 
 
+import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -11,9 +12,12 @@ import android.service.quicksettings.TileService;
 
 import androidx.annotation.RequiresApi;
 import androidx.core.content.ContextCompat;
+import androidx.core.service.quicksettings.PendingIntentActivityWrapper;
+import androidx.core.service.quicksettings.TileServiceCompat;
 
 import net.lgiki.floatingstatusbar.Constants;
 import net.lgiki.floatingstatusbar.R;
+import net.lgiki.floatingstatusbar.activities.TransparentActivity;
 import net.lgiki.floatingstatusbar.utils.ServiceUtils;
 
 @RequiresApi(api = Build.VERSION_CODES.N)
@@ -71,7 +75,11 @@ public class FloatingStatusBarToggleTileService extends TileService {
         if (isFloatingStatusBarServiceRunning()) {
             FloatingStatusBarService.stop(this);
         } else {
-            FloatingStatusBarService.start(this);
+            Intent activityIntent = new Intent(this, TransparentActivity.class);
+            activityIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            TileServiceCompat.startActivityAndCollapse(this, new PendingIntentActivityWrapper(
+                    this, 0, activityIntent, PendingIntent.FLAG_UPDATE_CURRENT, false
+            ));
         }
         updateTile();
     }

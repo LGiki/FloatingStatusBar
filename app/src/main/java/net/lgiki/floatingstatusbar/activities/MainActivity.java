@@ -1,4 +1,4 @@
-package net.lgiki.floatingstatusbar;
+package net.lgiki.floatingstatusbar.activities;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -28,6 +28,8 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import net.lgiki.floatingstatusbar.Constants;
+import net.lgiki.floatingstatusbar.R;
 import net.lgiki.floatingstatusbar.services.FloatingStatusBarService;
 import net.lgiki.floatingstatusbar.utils.ServiceUtils;
 
