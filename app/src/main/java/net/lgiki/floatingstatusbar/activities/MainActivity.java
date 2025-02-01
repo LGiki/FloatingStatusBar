@@ -28,6 +28,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import net.lgiki.floatingstatusbar.BuildConfig;
 import net.lgiki.floatingstatusbar.Constants;
 import net.lgiki.floatingstatusbar.R;
 import net.lgiki.floatingstatusbar.services.FloatingStatusBarService;
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.about) {
             AlertDialog aboutDialog = new AlertDialog.Builder(MainActivity.this)
                     .setTitle(R.string.about_dialog_title)
-                    .setMessage(Html.fromHtml(getString(R.string.about_dialog_html)))
+                    .setMessage(Html.fromHtml(getString(R.string.about_dialog_html, BuildConfig.VERSION_NAME)))
                     .setPositiveButton(android.R.string.ok, null)
                     .create();
             aboutDialog.show();
@@ -155,7 +156,6 @@ public class MainActivity extends AppCompatActivity {
                     Uri.parse("package:" + getPackageName())
             );
             requestSystemWindowAlertPermissionLauncher.launch(requestPermissionIntent);
-//            startActivityForResult(requestPermissionIntent, 100);
         }
 
         floatingStatusBarStatusReceiver = new BroadcastReceiver() {

@@ -23,7 +23,7 @@
     <string name="action_bar_reset_settings">重置设置</string>
     <string name="preferences_floating_window_open_settings_on_press">点击打开设置</string>
     <string name="preferences_floating_window_close_on_long_press">长按时关闭悬浮窗</string>
-    <string name="about_dialog_html"><![CDATA[开发者：LGiki<br />源代码：<a href="https://github.com/LGiki/FloaingStatusBar">https://github.com/LGiki/FloaingStatusBar</a>]]></string>
+    <string name="about_dialog_html"><![CDATA[开发者：LGiki<br />版本号：%1$s<br />源代码：<a href="https://github.com/LGiki/FloaingStatusBar">https://github.com/LGiki/FloaingStatusBar</a>]]></string>
     <string name="about_dialog_title">关于</string>
     <string name="toast_open_settings_failed">打开设置失败</string>
     <string name="reset_settings_dialog_content">所有设置项都会还原到默认设置，是否继续？</string>

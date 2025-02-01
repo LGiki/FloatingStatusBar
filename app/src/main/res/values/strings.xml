@@ -22,7 +22,7 @@
     <string name="action_bar_reset_settings">Reset Settings</string>
     <string name="preferences_floating_window_open_settings_on_press">Open settings on press floating window</string>
     <string name="preferences_floating_window_close_on_long_press">Close floating window on long press</string>
-    <string name="about_dialog_html"><![CDATA[Developed by LGiki<br />Source Code: <a href="https://github.com/LGiki/FloaingStatusBar">https://github.com/LGiki/FloaingStatusBar</a>]]></string>
+    <string name="about_dialog_html"><![CDATA[Developed by LGiki<br />Version: %1$s<br />Source Code: <a href="https://github.com/LGiki/FloaingStatusBar">https://github.com/LGiki/FloaingStatusBar</a>]]></string>
     <string name="about_dialog_title">About</string>
     <string name="toast_open_settings_failed">Failed to open settings</string>
     <string name="reset_settings_dialog_content">Click OK to reset. All settings will be lost and replaced with default settings!</string>
